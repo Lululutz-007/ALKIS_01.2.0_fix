@@ -1,0 +1,28 @@
+GEOgraf NAS-Assistent – Prüfprotokoll
+Version: 1.2.0
+Zeitpunkt: 2026-07-15T17:37:20Z
+GeoAS-Zeilen mit Buchung: 694
+Mit GeoAS verarbeitete Flurstücke: 149
+GeoAS-Flurstücke nicht in NAS: 0
+
+Fallgruppen:
+  1100: 105
+  1301: 41
+  1302: 3
+
+Erzeugte Objekte:
+  AX_Anschrift: 437
+  AX_Buchungsblatt: 416
+  AX_Buchungsstelle: 477
+  AX_Namensnummer: 612
+  AX_Person: 465
+  Dezimalanteile: 4
+  Katalogobjekte: 2
+  Komplex_1301: 37
+  Komplex_1302: 1
+  Rechtsgemeinschaft: 24
+
+Doppelte gml:id: 0
+Gebrochene Referenzen in erzeugten Ketten: 0
+Warnungen: 0
+  keine

@@ -1,0 +1,49 @@
+PRÜFBERICHT GITHUB-BAUPAKET – ALKIS_GeoAS_GEOgraf V1.2.0
+=========================================================
+Prüfzeitpunkt UTC: 2026-07-15T17:44:16+00:00
+
+Geprüfter Eingang:
+- ALKIS_GeoAS_GEOgraf_V1.2.0_FINAL.zip
+- ZIP-Integrität: bestanden
+- Gelieferte SHA-256-Werte: vollständig bestätigt
+- Python-Syntax: bestanden
+- PyInstaller-Ausgabename: ALKIS_GeoAS_GEOgraf_V1.2.0.exe
+
+Im tatsächlichen Quellcode bestätigt:
+- Docstring und Versionskonstante 1.2.0
+- HTML-Starter 02_GeoAS_Objekt-IDs.html
+- sichere HTML-/JavaScript-Weiterleitung
+- Dezimalanteile mit Komma und Punkt
+- Buchungsart 1302
+- technische Wurzel 1102
+- gemeinsame 1302-Buchungskomplexe
+- Komplex- und Dezimalstatistik
+
+Unabhängig ausgeführter synthetischer Integrationstest:
+- zwei Flurstücke in einem gemeinsamen 1302-Komplex
+- genau eine gemeinsame 1102-Wurzel
+- zwei 1302-Buchungsstellen
+- Dezimalanteile 0,5/1 und 0.5/1
+- beide Flurstücke verweisen auf dieselbe Wurzel
+- doppelte gml:id: 0
+- gebrochene Referenzen: 0
+- Warnungen: 0
+- HTML-Starter: bestanden
+
+Ergebnis:
+Der gelieferte Quellcode ist gegenüber dem früheren Paket tatsächlich auf
+Version 1.2.0 aktualisiert. Der GitHub-Workflow baut genau diesen geprüften
+Programmstand und führt den Integrationstest vor jedem EXE-Bau erneut aus.
+
+Hinweis:
+Der mitgelieferte Volltest mit 694 GeoAS-Zeilen wurde anhand seines
+Prüfprotokolls plausibilisiert. Die zugrunde liegenden Echtdaten waren im
+Paket nicht enthalten und konnten daher nicht unabhängig erneut ausgeführt
+werden.
+
+WINDOWS-KORREKTUR
+-----------------
+Die GeoAS-XLSX wird nach dem Einlesen nun ausdrücklich mit workbook.close()
+geschlossen. Damit wird die unter Windows aufgetretene Dateisperre WinError 32
+beseitigt. Der automatische Freigabetest benennt die XLSX nach dem Generatorlauf
+probeweise um und erkennt eine erneute Dateisperre vor dem EXE-Bau.

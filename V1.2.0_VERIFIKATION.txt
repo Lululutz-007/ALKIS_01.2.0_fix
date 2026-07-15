@@ -1,0 +1,20 @@
+ALKIS_GeoAS_GEOgraf V1.2.0 - VERIFIKATION
+Stand: 15.07.2026
+
+[OK] Docstring 1.2.0
+[OK] Versionskonstante 1.2.0
+[OK] HTML-Starter
+[OK] Dezimalparser
+[OK] 1302-Unterstützung
+[OK] 1102-Wurzel
+[OK] Gemeinsame Komplexe
+[OK] Komplexstatistik
+[OK] XML enthält 1102
+[OK] XML enthält 1302
+[OK] XML enthält Dezimalanteile
+[OK] Volltest Version 1.2.0
+[OK] Volltest ohne Warnungen
+[OK] Volltest ohne doppelte IDs
+[OK] Volltest ohne gebrochene Referenzen
+
+Ergebnis: 15 von 15 Prüfungen bestanden.

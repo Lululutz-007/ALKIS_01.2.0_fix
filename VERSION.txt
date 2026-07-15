@@ -1,0 +1,4 @@
+ALKIS_GeoAS_GEOgraf 1.2.0
+Stand: 15.07.2026
+OE 61.14, Daniel Bernutz
+Unterstützt: 1100, 1301, 1302, 2101, Rechtsgemeinschaften, Dezimalanteile, gemeinsame Buchungskomplexe, HTML-Starter für lange GeoAS-URLs.
